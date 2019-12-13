@@ -1,0 +1,31 @@
+server:
+  port: 8766
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: service-hystrix-feign
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    preferIpAddress: true
+    health-check-url-path: /application
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    registry-fetch-interval-seconds: 20
+    serviceUrl:
+      defaultZone: http://root:123@localhost:8762/eureka/,http://root:123@localhost:8761/eureka/
+    eureka-server-connect-timeout-seconds: 5
+feign:
+  hystrix:
+    enabled: true
+#hystrix集群监控
+turbine:
+  #配置需要聚合的服务名称。
+  app-config: service-hystrix-feign
+  #Turbine 需要聚合的集群名称。
+  aggregator:
+    cluster-config: default
+  #集群名表达式。
+  cluster-name-expression: new String("default")
