@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_framework" />
+        <module name="zuul" />
         <module name="a_eureka" />
         <module name="service_provider" />
         <module name="service-hystrix-feign" />
@@ -28,6 +29,7 @@
       <module name="service_consumer_feign" target="1.8" />
       <module name="service_consumer_ribbon" target="1.8" />
       <module name="service_provider" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,6 +41,7 @@
       <module name="service_consumer_feign" options="-parameters" />
       <module name="service_consumer_ribbon" options="-parameters" />
       <module name="service_provider" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

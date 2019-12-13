@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/ribbon-native-demo/pom.xml" />
         <option value="$PROJECT_DIR$/service_consumer_feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-hystrix-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>
