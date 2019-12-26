@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/service_consumer_feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-hystrix-feign/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/other_project/pom.xml" />
+        <option value="$PROJECT_DIR$/other_project/springboot-shiro/pom.xml" />
       </list>
     </option>
   </component>

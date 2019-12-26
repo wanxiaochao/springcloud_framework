@@ -9,10 +9,12 @@
         <module name="cloud_framework" />
         <module name="zuul" />
         <module name="a_eureka" />
-        <module name="service_provider" />
-        <module name="service-hystrix-feign" />
-        <module name="ribbon-native-demo" />
         <module name="service_consumer_feign" />
+        <module name="service_provider" />
+        <module name="ribbon-native-demo" />
+        <module name="other_project" />
+        <module name="service-hystrix-feign" />
+        <module name="springboot-shiro" />
       </profile>
       <profile name="Annotation profile for service_consumer" enabled="true">
         <sourceOutputDir name="../service_consumer/target/generated-sources/annotations" />
@@ -24,11 +26,13 @@
     <bytecodeTargetLevel>
       <module name="a_eureka" target="1.8" />
       <module name="cloud_framework" target="1.8" />
+      <module name="other_project" target="1.8" />
       <module name="ribbon-native-demo" target="1.8" />
       <module name="service-hystrix-feign" target="1.8" />
       <module name="service_consumer_feign" target="1.8" />
       <module name="service_consumer_ribbon" target="1.8" />
       <module name="service_provider" target="1.8" />
+      <module name="springboot-shiro" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -36,11 +40,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a_eureka" options="-parameters" />
       <module name="cloud_framework" options="-parameters" />
+      <module name="other_project" options="-parameters" />
       <module name="ribbon-native-demo" options="-parameters" />
       <module name="service-hystrix-feign" options="-parameters" />
       <module name="service_consumer_feign" options="-parameters" />
       <module name="service_consumer_ribbon" options="-parameters" />
       <module name="service_provider" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
