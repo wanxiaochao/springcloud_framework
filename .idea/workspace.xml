@@ -2,52 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8c1398-d8c4-4c2f-b865-9d9ce08bf509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/other_project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/SpringbootShiroApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/controller/UserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/controller/UserMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/controller/UserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/dao/SysMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/dao/SysRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/dao/SysRoleMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/dao/SysUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/dao/SysUserRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/entity/SysMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/entity/SysRoleMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/exception/MyShiroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/SysRoleMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/SysUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/shiro/ShiroRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/shiro/ShiroSessionIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/shiro/ShiroSessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/util/SHA256Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/util/ShiroUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/util/SpringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper/SysMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper/SysRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper/SysRoleMenuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper/SysUserRoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other_project/springboot-shiro/src/test/java/com/cloud/springbootshiro/SpringbootShiroApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/SpringbootSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/common/config/JWTConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/common/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/common/util/JWTTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/common/util/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/common/util/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/dao/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/dao/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/dao/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/dao/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/core/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/UserAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/UserPermissionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/entity/SelfUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserAuthAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserAuthenticationEntryPointHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/jwt/JWTAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/service/SelfUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/mapper/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/mapper/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/mapper/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/main/resources/mapper/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_project/springboot-security/src/test/java/com/sans/springbootsecurity/SpringbootSecurityApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,13 +104,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/other_project/springboot-shiro/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -114,12 +119,14 @@
       <recent name="com.cloud.servicehystrixfeign.fallback" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\self_project\cloud_framework\other_project\springboot-security\src\main\java\com\sans\springbootsecurity" />
+      <recent name="G:\self_project\cloud_framework\other_project\springboot-security\src\main\resources\mapper" />
       <recent name="G:\self_project\cloud_framework\other_project\springboot-shiro\src\main\resources\mapper" />
       <recent name="G:\self_project\cloud_framework\other_project\springboot-shiro\src\main\java\com\cloud\springbootshiro" />
       <recent name="G:\self_project\cloud_framework\service-hystrix-feign\src\main\java\com\cloud\servicehystrixfeign" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootShiroApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootSecurityApplication">
     <configuration name="StartText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloud.ribbonnativedemo.line.StartText" />
       <module name="ribbon-native-demo" />
@@ -178,6 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sans.springbootsecurity.SpringbootSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-shiro" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.springbootshiro.SpringbootShiroApplication" />
@@ -213,6 +227,7 @@
       <item itemvalue="Spring Boot.ServiceHystrixFeignApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.SpringbootShiroApplication" />
+      <item itemvalue="Spring Boot.SpringbootSecurityApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -245,7 +260,7 @@
       <workItem from="1576204573671" duration="17080000" />
       <workItem from="1576653017815" duration="1261000" />
       <workItem from="1577326601916" duration="4258000" />
-      <workItem from="1577330913269" duration="986000" />
+      <workItem from="1577330913269" duration="7016000" />
     </task>
     <servers />
   </component>
@@ -256,75 +271,82 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1577329438044">
+    <state x="670" y="378" width="580" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577341383210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="425" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1577329438044" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1577331952559">
+    <state x="670" y="378" width="580" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1577341383210" />
+    <state x="460" y="112" key="CommitChangelistDialog2" timestamp="1577341252667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1577331952559">
+    <state x="460" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577341252667" />
+    <state width="465" height="466" key="DebuggerActiveHint" timestamp="1577342333519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1577331952559">
+    <state width="465" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1577342333519" />
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1577331952559">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.1.bottom" timestamp="1577331952559">
+    <state width="1877" height="180" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1577343754449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.1.center" timestamp="1577331952559">
+    <state width="1877" height="180" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754449" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.1.left" timestamp="1577331952559">
+    <state width="1877" height="180" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.1.bottom" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.1.right" timestamp="1577331952559">
+    <state width="1877" height="180" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.1.center" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952559" />
-    <state width="1877" height="172" key="GridCell.Tab.2.bottom" timestamp="1577331952560">
+    <state width="1877" height="180" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.1.left" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952560" />
-    <state width="1877" height="172" key="GridCell.Tab.2.center" timestamp="1577331952560">
+    <state width="1877" height="180" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.1.right" timestamp="1577343754450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952560" />
-    <state width="1877" height="172" key="GridCell.Tab.2.left" timestamp="1577331952560">
+    <state width="1877" height="180" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754450" />
+    <state width="1877" height="180" key="GridCell.Tab.2.bottom" timestamp="1577343754451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952560" />
-    <state width="1877" height="172" key="GridCell.Tab.2.right" timestamp="1577331952560">
+    <state width="1877" height="180" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754451" />
+    <state width="1877" height="180" key="GridCell.Tab.2.center" timestamp="1577343754451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577331952560" />
-    <state x="636" y="253" width="683" height="534" key="find.popup" timestamp="1577331381285">
+    <state width="1877" height="180" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754451" />
+    <state width="1877" height="180" key="GridCell.Tab.2.left" timestamp="1577343754451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="683" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577331381285" />
-    <state x="334" y="221" key="new project wizard" timestamp="1577326812722">
+    <state width="1877" height="180" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754451" />
+    <state width="1877" height="180" key="GridCell.Tab.2.right" timestamp="1577343754451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577326812722" />
+    <state width="1877" height="180" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577343754451" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1577342219866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577342219866" />
+    <state x="636" y="253" width="831" height="534" key="find.popup" timestamp="1577343363362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="831" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577343363362" />
+    <state x="334" y="221" key="new project wizard" timestamp="1577332344788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577332344788" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/controller/UserLoginController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/shiro/ShiroRealm.java</url>
           <line>75</line>
@@ -334,6 +356,31 @@
           <url>file://$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/util/ShiroUtils.java</url>
           <line>73</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/handler/UserAuthenticationEntryPointHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/jwt/JWTAuthenticationTokenFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other_project/springboot-shiro/src/main/java/com/cloud/springbootshiro/controller/UserLoginController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/UserAuthenticationProvider.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other_project/springboot-security/src/main/java/com/sans/springbootsecurity/security/UserPermissionEvaluator.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

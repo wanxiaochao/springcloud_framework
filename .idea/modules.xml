@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/service_consumer_feign/service_consumer_feign.iml" filepath="$PROJECT_DIR$/service_consumer_feign/service_consumer_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_consumer_ribbon/service_consumer_ribbon.iml" filepath="$PROJECT_DIR$/service_consumer_ribbon/service_consumer_ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_provider/service_provider.iml" filepath="$PROJECT_DIR$/service_provider/service_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other_project/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/other_project/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/other_project/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/other_project/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>

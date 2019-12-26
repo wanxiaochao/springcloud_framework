@@ -10,10 +10,11 @@
         <module name="zuul" />
         <module name="a_eureka" />
         <module name="service_consumer_feign" />
-        <module name="service_provider" />
+        <module name="springboot-security" />
+        <module name="service-hystrix-feign" />
         <module name="ribbon-native-demo" />
         <module name="other_project" />
-        <module name="service-hystrix-feign" />
+        <module name="service_provider" />
         <module name="springboot-shiro" />
       </profile>
       <profile name="Annotation profile for service_consumer" enabled="true">
@@ -32,6 +33,7 @@
       <module name="service_consumer_feign" target="1.8" />
       <module name="service_consumer_ribbon" target="1.8" />
       <module name="service_provider" target="1.8" />
+      <module name="springboot-security" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -46,6 +48,7 @@
       <module name="service_consumer_feign" options="-parameters" />
       <module name="service_consumer_ribbon" options="-parameters" />
       <module name="service_provider" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
