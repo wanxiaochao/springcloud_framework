@@ -1,8 +1,8 @@
 server:
-  port: 4567
+  port: 5678
 spring:
   application:
-    name: service-provider-consul
+    name: service-consumer-consul
   cloud:
     consul:
       host: 192.168.6.151

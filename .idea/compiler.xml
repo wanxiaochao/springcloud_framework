@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud_framework" />
-        <module name="zuul" />
-        <module name="a_eureka" />
-        <module name="service_provider_consul" />
-        <module name="service_consumer_feign" />
-        <module name="service_provider" />
-        <module name="ribbon-native-demo" />
-        <module name="springboot-security" />
-        <module name="other_project" />
         <module name="service-hystrix-feign" />
+        <module name="service_consumer_feign" />
+        <module name="gateway" />
+        <module name="service_consumer_consul" />
+        <module name="ribbon-native-demo" />
+        <module name="zuul" />
+        <module name="springboot-security" />
+        <module name="service_provider" />
+        <module name="service-auth" />
+        <module name="cloud_framework" />
+        <module name="service_provider_consul" />
+        <module name="other_project" />
+        <module name="a_eureka" />
         <module name="springboot-shiro" />
       </profile>
       <profile name="Annotation profile for service_consumer" enabled="true">
@@ -31,7 +34,9 @@
       <module name="gateway" target="1.8" />
       <module name="other_project" target="1.8" />
       <module name="ribbon-native-demo" target="1.8" />
+      <module name="service-auth" target="1.8" />
       <module name="service-hystrix-feign" target="1.8" />
+      <module name="service_consumer_consul" target="1.8" />
       <module name="service_consumer_feign" target="1.8" />
       <module name="service_consumer_ribbon" target="1.8" />
       <module name="service_provider" target="1.8" />
@@ -48,7 +53,9 @@
       <module name="gateway" options="-parameters" />
       <module name="other_project" options="-parameters" />
       <module name="ribbon-native-demo" options="-parameters" />
+      <module name="service-auth" options="-parameters" />
       <module name="service-hystrix-feign" options="-parameters" />
+      <module name="service_consumer_consul" options="-parameters" />
       <module name="service_consumer_feign" options="-parameters" />
       <module name="service_consumer_ribbon" options="-parameters" />
       <module name="service_provider" options="-parameters" />

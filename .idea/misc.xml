@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/other_project/springboot-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/other_project/springboot-security/pom.xml" />
         <option value="$PROJECT_DIR$/service_provider_consul/pom.xml" />
+        <option value="$PROJECT_DIR$/service_consumer_consul/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/service-auth/pom.xml" />
       </list>
     </option>
   </component>
