@@ -7,16 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-hystrix-feign" />
+        <module name="dubbo_demo" />
         <module name="service_consumer_feign" />
         <module name="gateway" />
         <module name="service_consumer_consul" />
         <module name="ribbon-native-demo" />
+        <module name="service-provider" />
         <module name="zuul" />
+        <module name="dubbo_interface" />
         <module name="springboot-security" />
         <module name="service_provider" />
         <module name="service-auth" />
         <module name="cloud_framework" />
         <module name="service_provider_consul" />
+        <module name="service-consumer" />
         <module name="other_project" />
         <module name="a_eureka" />
         <module name="springboot-shiro" />
@@ -31,11 +35,15 @@
     <bytecodeTargetLevel>
       <module name="a_eureka" target="1.8" />
       <module name="cloud_framework" target="1.8" />
+      <module name="dubbo_demo" target="1.8" />
+      <module name="dubbo_interface" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="other_project" target="1.8" />
       <module name="ribbon-native-demo" target="1.8" />
       <module name="service-auth" target="1.8" />
+      <module name="service-consumer" target="1.8" />
       <module name="service-hystrix-feign" target="1.8" />
+      <module name="service-provider" target="1.8" />
       <module name="service_consumer_consul" target="1.8" />
       <module name="service_consumer_feign" target="1.8" />
       <module name="service_consumer_ribbon" target="1.8" />
@@ -50,11 +58,15 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a_eureka" options="-parameters" />
       <module name="cloud_framework" options="-parameters" />
+      <module name="dubbo_demo" options="-parameters" />
+      <module name="dubbo_interface" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="other_project" options="-parameters" />
       <module name="ribbon-native-demo" options="-parameters" />
       <module name="service-auth" options="-parameters" />
+      <module name="service-consumer" options="-parameters" />
       <module name="service-hystrix-feign" options="-parameters" />
+      <module name="service-provider" options="-parameters" />
       <module name="service_consumer_consul" options="-parameters" />
       <module name="service_consumer_feign" options="-parameters" />
       <module name="service_consumer_ribbon" options="-parameters" />

@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/a_eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/a_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo_demo/dubbo_interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo_demo/service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo_demo/service-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other_project/springboot-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other_project/springboot-shiro/src/main/java" charset="UTF-8" />

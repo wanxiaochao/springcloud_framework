@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/service_consumer_consul/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/service-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo/dubbo_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo/service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo/service-consumer/pom.xml" />
       </list>
     </option>
   </component>

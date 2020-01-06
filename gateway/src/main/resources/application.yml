@@ -47,3 +47,5 @@ spring:
         heartbeat:
           enabled: true
         register-health-check: true
+logging:
+  config: classpath:logback-spring.xml

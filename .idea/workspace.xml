@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8c1398-d8c4-4c2f-b865-9d9ce08bf509" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cloud/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cloud/gateway/config/RateLimitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cloud/gateway/config/exception/ErrorHandlerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cloud/gateway/config/exception/JsonExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/cloud/gateway/config/filter/GatewayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/cloud/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/cloud/serviceauth/ServiceAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/test/java/com/cloud/serviceauth/ServiceAuthApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/src/main/java/com/cloud/service_consumer_consul/ServiceConsumerConsulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/src/main/java/com/cloud/service_consumer_consul/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service_consumer_consul/src/test/java/com/cloud/service_consumer_consul/ServiceConsumerConsulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_provider_consul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service_provider_consul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/src/main/java/com/cloud/dubbo_interface/DubboInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/src/main/java/com/cloud/dubbo_interface/service/HelloDubboService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/dubbo_interface/src/test/java/com/cloud/dubbo_interface/DubboInterfaceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/src/main/java/com/cloud/serviceconsumer/ServiceConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/src/main/java/com/cloud/serviceconsumer/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-consumer/src/test/java/com/cloud/serviceconsumer/ServiceConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/src/main/java/com/cloud/serviceprovider/ServiceProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/src/main/java/com/cloud/serviceprovider/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo/service-provider/src/test/java/com/cloud/serviceprovider/ServiceProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,10 +62,15 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="1.8" />
-        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx1024m" />
+        <option name="vmOptionsForImporter" value="-Xms512m -Xmx512m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1V96Z31SD1cm1UP5Qr7IZltf9Tv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -89,9 +96,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\self_project\cloud_framework\gateway\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cloud.service_consumer_consul.controller" />
       <recent name="com.cloud.springbootshiro.constant" />
@@ -106,7 +116,7 @@
       <recent name="G:\self_project\cloud_framework\other_project\springboot-shiro\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceConsumerConsulApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceProviderApplication (1)">
     <configuration name="StartText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloud.ribbonnativedemo.line.StartText" />
       <module name="ribbon-native-demo" />
@@ -130,6 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DubboInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo_interface" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.dubbo_interface.DubboInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.gateway.GatewayApplication" />
@@ -147,6 +164,13 @@
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceauth.ServiceAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceconsumer.ServiceConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,6 +199,13 @@
     <configuration name="ServiceHystrixFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-hystrix-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.servicehystrixfeign.ServiceHystrixFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.serviceprovider.ServiceProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,6 +271,9 @@
       <item itemvalue="Spring Boot.ServiceProviderConsulApplication" />
       <item itemvalue="Spring Boot.ServiceConsumerConsulApplication" />
       <item itemvalue="Spring Boot.ServiceAuthApplication" />
+      <item itemvalue="Spring Boot.DubboInterfaceApplication" />
+      <item itemvalue="Spring Boot.ServiceProviderApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceConsumerApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -274,7 +308,13 @@
       <workItem from="1577326601916" duration="4258000" />
       <workItem from="1577330913269" duration="10029000" />
       <workItem from="1577781785481" duration="4023000" />
-      <workItem from="1577928917504" duration="19326000" />
+      <workItem from="1577928917504" duration="19942000" />
+      <workItem from="1578109263420" duration="3034000" />
+      <workItem from="1578275785154" duration="2178000" />
+      <workItem from="1578279820493" duration="899000" />
+      <workItem from="1578280745502" duration="517000" />
+      <workItem from="1578281277144" duration="8000" />
+      <workItem from="1578281516538" duration="6924000" />
     </task>
     <servers />
   </component>
@@ -289,14 +329,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1577950719933" />
+    <state x="552" y="178" key="#Notifications" timestamp="1578279474838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1578279474838" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577785898453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577785898453" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1577952589826">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1578294339015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577952589826" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578294339015" />
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577785817965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,70 +361,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577936958846" />
-    <state width="1877" height="314" key="GridCell.Tab.0.bottom" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.0.center" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.0.left" timestamp="1577960093977">
+    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093977" />
-    <state width="1877" height="314" key="GridCell.Tab.0.right" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.1.bottom" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.1.bottom" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.1.center" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.1.center" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.1.left" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.1.left" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.1.right" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.1.right" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.2.bottom" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.2.bottom" timestamp="1578302876321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.2.center" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876321" />
+    <state width="1877" height="109" key="GridCell.Tab.2.center" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.2.left" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.2.left" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
-    <state width="1877" height="314" key="GridCell.Tab.2.right" timestamp="1577960093978">
+    <state width="1877" height="109" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
+    <state width="1877" height="109" key="GridCell.Tab.2.right" timestamp="1578302876320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577960093978" />
+    <state width="1877" height="109" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578302876320" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1577952762254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577952762254" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1577784938105">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578280719753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577784938105" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578280719753" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578281577793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578281577793" />
     <state x="636" y="253" width="831" height="534" key="find.popup" timestamp="1577929519270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="253" width="831" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577929519270" />
-    <state x="334" y="221" key="new project wizard" timestamp="1577954039223">
+    <state x="334" y="221" key="new project wizard" timestamp="1578293721189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577954039223" />
+    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578293721189" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577946016881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
