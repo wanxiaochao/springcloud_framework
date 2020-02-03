@@ -1,0 +1,14 @@
+server:
+  port: 5678
+spring:
+  application:
+    name: service-consumer-consul
+  cloud:
+    consul:
+      host: 192.168.6.151
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
+        register-health-check: true

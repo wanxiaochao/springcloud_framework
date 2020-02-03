@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: eureka-server-ha
+  security:
+    basic: true
+    user:
+      name: root
+      password: 123
+---
+server:
+  port: 8761
+  peer-node-read-timeout-ms: 500
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+    #自定义instanceid
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://root:123@localhost:8762/eureka/
+  server:
+    #用户来关闭eureka的自我保护
+    enable-self-preservation: false
+---
+server:
+  port: 8762
+  peer-node-read-timeout-ms: 500
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+    #自定义instanceid
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://root:123@localhost:8761/eureka/
+  server:
+    #用户来关闭eureka的自我保护
+    enable-self-preservation: false

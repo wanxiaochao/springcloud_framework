@@ -1,0 +1,51 @@
+server:
+  port: 6789
+spring:
+  application:
+    name: service-gateway
+  redis:
+    database: 0
+    host: 116.62.231.166
+    port: 6379
+    password:
+    timeout: 0
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true #开启这个后访问接口不写下面的路由规则直接根据服务名就可以匹配到 如：http://localhost:6789/service-consumer-consul/article/callHello2
+      routes:
+        - id: service-consumer-consul
+          uri: lb://service-consumer-consul
+          predicates:
+            - Path=/article/**
+          filters:
+            #统一设置请求头参数
+            - AddRequestHeader=NAME1, jerryCat
+            - AddRequestHeader=NAME2, tomMouse
+            - name: RequestRateLimiter #filter名称必须是RequestRateLimiter
+              args:
+                retries: 3 #默认重试次数
+                series: #状态码配置（分段） 默认是5XX（5开头的）
+                  - SERVER_ERROR
+                statuses: #状态码配置 比series更具体一些
+                  - OK
+                methods: #请求方式
+                  - GET
+                  - POST
+                exceptions: #指定异常
+                  - java.io.IOException
+                redis-rate-limiter.replenishRate: 10 #允许用户每秒处理多少个请求
+                redis-rate-limiter.burstCapacity: 20 #令牌桶的容量，允许在一秒钟内完成的最大请求数
+                key-resolver: "#{@ipKeyResolver}"
+    consul:
+      host: 192.168.6.151
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
+        register-health-check: true
+logging:
+  config: classpath:logback-spring.xml
